@@ -18,6 +18,10 @@ header .ms_height{
     height: 88px;
 }
 
+main .ms_height{
+    height: 100%;
+}
+
 .ms_section-green{
     background-color: #1ABC9C;
 }
@@ -26,9 +30,12 @@ header .ms_height{
     height: 587px;
 }
 
-main .ms_height{
-    height: 100%;
+.ms_section-white:nth-child(2){
+    height: 854px;
+    background-color: white;
 }
+
+
 
 
 /* DEBUG */
