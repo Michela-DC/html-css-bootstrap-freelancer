@@ -39,6 +39,10 @@ main .ms_height{
     height: 490px;
 }
 
+.ms_section-white:nth-child(4){
+    height: 686px;
+    background-color: white;
+}
 
 /* DEBUG */
 
