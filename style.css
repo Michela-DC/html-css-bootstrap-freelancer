@@ -44,6 +44,22 @@ main .ms_height{
     background-color: white;
 }
 
+/* FOOOTER -------------------- */
+
+.ms_footer-container{
+    height: 342px;
+}
+
+.ms_freelancer-info{
+    height: 230px;
+    background-color: #3A546D;
+}
+
+.ms_copyright{
+    background-color: #2C3E50;
+}
+
+
 /* DEBUG */
 
 .row{
