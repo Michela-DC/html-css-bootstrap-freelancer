@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2C3E50;
+    color: white;
+    height: 88px;
+}
+
+a{
+    color: white;
+}
+
+header .ms_height{
+    height: 88px;
+}
+
+
+/* DEBUG */
+
+.row{
+    border: 2px dashed blue;
+}
+
+div[class^="col"]{
+    border: 2px dashed red;
+}
+
+
