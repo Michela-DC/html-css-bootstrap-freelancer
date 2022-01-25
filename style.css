@@ -18,6 +18,18 @@ header .ms_height{
     height: 88px;
 }
 
+.ms_section-green{
+    background-color: #1ABC9C;
+}
+
+.ms_section-green:first-child{
+    height: 587px;
+}
+
+main .ms_height{
+    height: 100%;
+}
+
 
 /* DEBUG */
 
