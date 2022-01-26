@@ -79,7 +79,6 @@ h2{
 
 nav{
     min-height: 88px;
-    color: white;
 }
 
 
@@ -139,6 +138,7 @@ nav{
 
 footer{
     min-height: 342px;
+    color: white;
 }
 
 .ms_freelancer-info{
@@ -151,14 +151,33 @@ footer{
     background-color: #2C3E50;
 }
 
+.ms_padding:first-child{
+    padding: 10px 20px;
+}
+
+.ms_padding:nth-child(2){
+    padding: 4px 14px;
+}
+
+.ms_padding:nth-child(3){
+    padding: 10px 16px;
+}
+
+.ms_padding:last-child{
+    padding: 10px 17px;
+}
+
+footer .ms_a-color{
+    color: #1ABC9C;
+}
 
 /* DEBUG */
 
-/* .row{
+.row{
     border: 2px dashed blue;
 }
 
 div[class^="col"]{
     border: 2px dashed red;
-} */
+}
 
