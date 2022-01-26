@@ -12,7 +12,6 @@ header .row{
     min-height: 88px;
 } 
 
-
 a{
     color: white;
 }
@@ -36,7 +35,6 @@ header .ms_height{
 h1{
     font-size: 3.5rem;
 }
-
 h2{
     font-size: 2.7rem;
 }
@@ -47,10 +45,10 @@ h2{
 
 .ms_star-container::before{
     content: "";
-    height: 4px;
-    width: 160px;
+    height: 3px;
+    width: 170px;
     position: absolute;
-    right: 55px;
+    right: 45px;
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 50px;
@@ -58,10 +56,10 @@ h2{
 
 .ms_star-container::after{
     content: "";
-    height: 4px;
-    width: 160px;
+    height: 3px;
+    width: 170px;
     position: absolute;
-    left: 55px;
+    left: 45px;
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 50px;
@@ -79,6 +77,7 @@ h2{
 
 nav{
     min-height: 88px;
+    color: white;
 }
 
 
@@ -86,8 +85,8 @@ nav{
     height: 587px;
 }
 
-.ms_section-green:first-child img{
-    width: 18%;
+#avatar{
+    width: 227px;
 }
 
 .ms_section-white:nth-child(2){
@@ -132,8 +131,6 @@ nav{
 }
 
 
-
-
 /* FOOOTER -------------------- */
 
 footer{
@@ -171,13 +168,45 @@ footer .ms_a-color{
     color: #1ABC9C;
 }
 
+
+/* Mediaqueries ------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+
+    /* section 1 */
+    .ms_section-green:first-child{
+        height: 520px;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    .ms_star-container::before, .ms_star-container::after{
+        width: 120px;
+    }
+
+    .ms_occupations{
+        font-size: 1.3rem;
+    }
+
+    /* section 2 */
+
+    .ms_section-white:nth-child(2){
+        height: 790px;
+    }
+
+}
+
+
+
 /* DEBUG */
 
-.row{
+/* .row{
     border: 2px dashed blue;
 }
 
 div[class^="col"]{
     border: 2px dashed red;
 }
-
+ */
