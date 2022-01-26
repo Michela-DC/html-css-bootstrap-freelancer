@@ -99,6 +99,10 @@ h2{
     height: 490px;
 }
 
+.ms_section-green:nth-child(3) p{
+    columns: 2;
+}
+
 .ms_section-white:nth-child(4){
     height: 686px;
     background-color: white;
