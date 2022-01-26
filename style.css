@@ -21,16 +21,57 @@ header .ms_height{
     height: 88px;
 } */
 
-main .ms_height{
-    height: 100%;
-}
+/* Common ---------------------- */
 
 .ms_section-green{
     background-color: #1ABC9C;
+    color: white;
 }
+
+.ms_section-white:nth-child(4){
+    height: 686px;
+    color: #2C3E50;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.ms_star-container{
+    position: relative;
+}
+
+.ms_star-container::before{
+    content: "";
+    height: 3px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.ms_star-container::after{
+    content: "";
+    height: 3px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    left: 55px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+/* ---------------- */
 
 .ms_section-green:first-child{
     height: 587px;
+}
+
+.ms_section-green:first-child img{
+    height: 255px;
 }
 
 .ms_section-white:nth-child(2){
