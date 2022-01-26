@@ -7,7 +7,10 @@
 header{
     background-color: #2C3E50;
     color: white;
-    height: 88px;
+}
+
+header .row{
+    min-height: 88px;
 }
 
 a{
@@ -46,8 +49,8 @@ main .ms_height{
 
 /* FOOOTER -------------------- */
 
-.ms_footer-container{
-    height: 342px;
+footer{
+    min-height: 342px;
 }
 
 .ms_freelancer-info{
@@ -56,6 +59,7 @@ main .ms_height{
 }
 
 .ms_copyright{
+    height: 112px;
     background-color: #2C3E50;
 }
 
