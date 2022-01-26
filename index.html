@@ -23,13 +23,14 @@
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                      <a class="text-reset nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                      <!-- text-reset so that it inherits the color from its parent -> quindi dando color:white nella nav e mettendo text-reset agli a, questi prendono il colore del genitore che è nav -->
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                      <a class="text-reset nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                      <a class="text-reset nav-link" href="#contact">Contact</a>
                     </li>
                     <!-- <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -51,7 +52,6 @@
                     /* c'era un margin bottom di default ma con mb-0 l'ho tolto */
                         <li>
                             <a class="text-decoration-none text-reset" href="">Portfolio</a>
-                            /* text-reset so that it inherits the color from its parent */
                         </li>
                         <li>
                             <a class="text-decoration-none text-reset" href="">About</a>
@@ -164,34 +164,34 @@
         </section>
 
         <!-- section 4 -->
-        <section id="contact" class="ms_section-white">
+        <section id="contact" class="ms_section-white ms_section-green d-flex align-items-center">
             <div class="container">
                 <div class="row flex-column align-items-center justify-content-center">
-                    <div class="col-12">
-                        <h1 class="text-uppercase">Contact Me</h1>
-                    </div>
-    
-                    <div class="col-12">
-                        star
+                    <div class="col-12 d-flex flex-column align-items-center mb-3">
+                        <h2 class="fw-bold text-uppercase">contact me</h2>
+                        <div class="ms_star-container fs-3">
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                     
-                    <div class="col-12">
-                        Name
+                    <div class="col-9 py-3">
+                        <div class="ms_client-info fs-5">Name</div>
                     </div>
     
-                    <div class="col-12">
-                        Email Adress
+                    <div class="col-9 py-3">
+                        <div class="ms_client-info fs-5">Email Address</div>
                     </div>
     
-                    <div class="col-12">
-                        Phone Number
+                    <div class="col-9 py-3">
+                        <div class="ms_client-info fs-5">Phone Number</div>
                     </div>
-                    <div class="col-12">
-                        Message
+
+                    <div class="col-9 pt-3">
+                        <div class="ms_client-info fs-5">Message</div>
                     </div>
     
-                    <div class="col-12">
-                        <input class="btn btn-primary" type="submit" value="Submit">
+                    <div class="col-9 py-4">
+                        <input class="btn btn-outline-light fs-5" style="background-color: #1ABC9C;" type="submit" value="Send">
                     </div>
                 </div>
             </div>

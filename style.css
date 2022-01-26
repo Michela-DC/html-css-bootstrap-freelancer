@@ -77,6 +77,12 @@ h2{
 
 /* ---------------- */
 
+nav{
+    min-height: 88px;
+    color: white;
+}
+
+
 .ms_section-green:first-child{
     height: 587px;
 }
@@ -108,6 +114,27 @@ h2{
     background-color: white;
 }
 
+#contact .col-9{
+    position: relative;
+}
+
+#contact .col-9:nth-child(5){
+    padding-bottom: 100px;
+}
+
+.ms_client-info::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #c0c0c0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
 /* FOOOTER -------------------- */
 
 footer{
@@ -133,6 +160,5 @@ footer{
 
 div[class^="col"]{
     border: 2px dashed red;
-}
- */
+} */
 
