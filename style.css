@@ -43,24 +43,26 @@ h1{
 
 .ms_star-container::before{
     content: "";
-    height: 3px;
+    height: 4px;
     width: 160px;
     background-color: white;
     position: absolute;
     right: 55px;
     top: 50%;
     transform: translate(0, -50%);
+    border-radius: 50px;
 }
 
 .ms_star-container::after{
     content: "";
-    height: 3px;
+    height: 4px;
     width: 160px;
     background-color: white;
     position: absolute;
     left: 55px;
     top: 50%;
     transform: translate(0, -50%);
+    border-radius: 50px;
 }
 
 
@@ -107,12 +109,12 @@ footer{
 
 /* DEBUG */
 
-.row{
+/* .row{
     border: 2px dashed blue;
 }
 
 div[class^="col"]{
     border: 2px dashed red;
 }
-
+ */
 
