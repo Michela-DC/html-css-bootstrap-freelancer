@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-header{
+/* header{
     background-color: #2C3E50;
     color: white;
-}
-
+} 
 header .row{
     min-height: 88px;
-}
+} 
+
 
 a{
     color: white;
@@ -19,7 +19,7 @@ a{
 
 header .ms_height{
     height: 88px;
-}
+} */
 
 main .ms_height{
     height: 100%;
