@@ -28,7 +28,6 @@ header .ms_height{
 }
 
 .ms_section-white:nth-child(4){
-    height: 686px;
     color: #2C3E50;
 }
 
@@ -89,8 +88,7 @@ nav{
     width: 227px;
 }
 
-.ms_section-white:nth-child(2){
-    height: 850px;
+#portfolio{
     background-color: white;
 }
 
@@ -98,21 +96,20 @@ nav{
     padding: 100px;
 }
 
-.ms_section-white:nth-child(2) img{
+#portfolio img{
     width: 100%;
     border-radius: 10px;
 }
 
-.ms_section-green:nth-child(3){
-    height: 490px;
+#about{
+    padding: 0 20px;
 }
 
-.ms_section-green:nth-child(3) p{
+#about p{
     columns: 2;
 }
 
-.ms_section-white:nth-child(4){
-    height: 686px;
+#contact{
     background-color: white;
 }
 
@@ -177,11 +174,6 @@ footer .ms_a-color{
 
 @media screen and (min-width: 576px) and (max-width: 768px){
 
-    /* section 1 */
-    .ms_section-green:first-child{
-        height: 520px;
-    }
-
     h1{
         font-size: 3em;
     }
@@ -194,17 +186,51 @@ footer .ms_a-color{
         font-size: 1.3rem;
     }
 
-    /* section 2 */
-
-    .ms_section-white:nth-child(2){
-        height: 790px;
+    #portfolio .ms_padding{
+        padding: 50px 0;
     }
 
-    #portfolio .ms_padding{
+    #about{
         padding: 0;
     }
 }
 
+@media screen and (max-width: 575px){
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .ms_star-container::before, .ms_star-container::after{
+        width: 55px;
+    }
+
+    #portfolio{
+        height: fit-content;
+    }
+
+    #portfolio .ms_padding{
+        padding: 50px 0;
+    }
+
+    #about p{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ms_freelancer-info .row{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ms_freelancer-info{
+        min-height: 450px;
+    }
+}
 
 
 /* DEBUG */
