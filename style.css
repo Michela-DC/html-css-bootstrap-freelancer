@@ -7,10 +7,10 @@
 /* header{
     background-color: #2C3E50;
     color: white;
-} 
+}
 header .row{
     min-height: 88px;
-} 
+}
 
 a{
     color: white;
@@ -94,6 +94,10 @@ nav{
     background-color: white;
 }
 
+#portfolio .ms_padding{
+    padding: 100px;
+}
+
 .ms_section-white:nth-child(2) img{
     width: 100%;
     border-radius: 10px;
@@ -112,12 +116,12 @@ nav{
     background-color: white;
 }
 
-#contact .col-9{
+#contact .col-md-8{
     position: relative;
 }
 
-#contact .col-9:nth-child(5){
-    padding-bottom: 100px;
+#contact .col-md-8:nth-child(5){
+    padding-bottom: 120px;
 }
 
 .ms_client-info::after{
@@ -196,6 +200,9 @@ footer .ms_a-color{
         height: 790px;
     }
 
+    #portfolio .ms_padding{
+        padding: 0;
+    }
 }
 
 
